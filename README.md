@@ -1,5 +1,5 @@
 # TypeStub for sha256
-source: https://github.com/beenotung/typed-sha256
+source: https://github.com/beenotung/typestub-sha256
 
 ## TL;DL
 It is hard to use typings with Ionic2 (Angular2), this repo try to fix it (or workaround with it).
