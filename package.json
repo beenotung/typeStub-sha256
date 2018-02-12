@@ -5,7 +5,8 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc index.d.ts",
+    "preversion": "npm test"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/beenotung/typestub-sha256#readme",
   "peerDependencies": {
     "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.7.1"
   }
 }
