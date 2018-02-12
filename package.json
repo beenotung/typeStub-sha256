@@ -1,0 +1,29 @@
+{
+  "name": "typestub-sha256",
+  "version": "0.2.0",
+  "description": "typescript annotation for sha256",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/typestub-sha256.git"
+  },
+  "keywords": [
+    "typescript",
+    "typestub",
+    "typing",
+    "types"
+  ],
+  "author": "Beeno Tung",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/beenotung/typestub-sha256/issues"
+  },
+  "homepage": "https://github.com/beenotung/typestub-sha256#readme",
+  "peerDependencies": {
+    "sha256": "^0.2.0"
+  }
+}
