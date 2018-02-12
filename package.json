@@ -3,9 +3,11 @@
   "version": "0.2.0",
   "description": "typescript annotation for sha256",
   "main": "index.js",
-  "types": "index.d.ts",
+  "types": "index.ts",
   "scripts": {
-    "test": "tsc index.d.ts",
+    "compile": "tsc index.ts",
+    "runtest": "bash test.sh",
+    "test": "run-s compile runtest",
     "preversion": "npm test"
   },
   "repository": {
@@ -28,6 +30,10 @@
     "sha256": "^0.2.0"
   },
   "devDependencies": {
+    "npm-run-all": "^4.1.2",
     "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "sha256": "^0.2.0"
   }
 }

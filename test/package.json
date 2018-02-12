@@ -1,0 +1,19 @@
+{
+  "name": "typestub-sha256-test",
+  "version": "0.0.0",
+  "description": "test module of typestub-sha256",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node raw.ts && ts-node wrapper.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.1",
+    "typestub-sha256": "../"
+  }
+}
