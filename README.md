@@ -7,11 +7,10 @@ This repo try to fix it (or workaround with it).
 
 ## Example
 ```typescript
-import * as sha256Impl from "sha256";
-import {sha256 as sha256Type} from "../../../lib/typeStub-sha256/index";
-let sha256: sha256Type = sha256Impl;
+import {sha256} from "typestub-sha256";
 
-console.log('test',sha256('test'));
+const hash = sha256('123');
+console.log({hash});
 ```
 
 or import this package directly.
